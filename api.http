@@ -4,7 +4,7 @@ GET http://localhost:1234/movies
 GET http://localhost:1234/movies/1
 
 ####Recuperar todas las peliculas por un genero
-GET  http://localhost:1234/movies?genre=Drama
+GET  http://localhost:1234/movies?genre=Crime
 
 ###Crear una pelicula 
 POST http://localhost:1234/movies
@@ -18,9 +18,9 @@ Content-Type: application/json
 }
 
 ###Actualizar una pelicula
-PATCH http://localhost:1234/movies/4
+PATCH http://localhost:1234/movies/f6fae4fb-44a7-4684-95a4-2207c141db65
 Content-Type: application/json
 {
       "title": "Memorias 2",
-      "director": "Franko Matias",
+      "director": "Franko Matias"
 }
